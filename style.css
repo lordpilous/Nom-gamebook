@@ -15,18 +15,15 @@ body {
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-size: 7vw; /* stejně jako body */
+    font-size: 6vw !important;
 }
 
 @media (min-width: 600px) {
     body, pre {
-        font-size: 20px; /* fixní velikost na větších obrazovkách */
+        font-size: 20px !important;
     }
 }
-    pre {
-        font-size: 22px;
-    }
-}
+
 a {
     color: #0066cc;
     text-decoration: none;
