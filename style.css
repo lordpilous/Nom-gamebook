@@ -1,9 +1,40 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
 
-body { font-family: Arial, sans-serif; margin: 40px; background: #fdfdfd; color: #333; }
-h1, h2 { text-align: center; }
-p { margin-bottom: 1em; }
-footer { margin-top: 2em; font-size: 0.9em; text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-.text-center { text-align: center; }
-.text-justify { text-align: justify; }
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 1em; /* dědí z body */
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: small;
+    text-align: center;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 20px;
+    }
+}
