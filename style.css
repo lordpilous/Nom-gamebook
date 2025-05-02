@@ -15,13 +15,8 @@ body {
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-size: 6vw !important;
-}
-
-@media (min-width: 600px) {
-    body, pre {
-        font-size: 20px !important;
-    }
+    font-size: 28px;
+    line-height: 1.6;
 }
 
 a {
