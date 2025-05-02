@@ -8,21 +8,21 @@ body {
     box-sizing: border-box;
     word-wrap: break-word;
     padding: 10px;
-    font-size: 6vw; /* klíčová změna: velikost textu podle šířky obrazovky */
+    font-size: 7vw; /* zvětšeno z 6vw na 7vw */
     line-height: 1.6;
 }
 
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-size: 6vw; /* stejně jako body, aby se přizpůsobilo */
+    font-size: 7vw; /* stejně jako body */
 }
 
-@media (max-width: 600px) {
-    body {
-        font-size: 22px; /* speciálně pro mobilní obrazovky */
+@media (min-width: 600px) {
+    body, pre {
+        font-size: 20px; /* fixní velikost na větších obrazovkách */
     }
-
+}
     pre {
         font-size: 22px;
     }
@@ -38,7 +38,7 @@ a:hover {
 
 footer {
     margin-top: 50px;
-    font-size: small;
+    font-size: medium;
     text-align: center;
     color: #555;
 }
