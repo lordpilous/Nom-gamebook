@@ -8,14 +8,14 @@ body {
     box-sizing: border-box;
     word-wrap: break-word;
     padding: 10px;
-    font-size: 18px;
+    font-size: 6vw; /* klíčová změna: velikost textu podle šířky obrazovky */
     line-height: 1.6;
 }
 
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-size: 18px;
+    font-size: 6vw; /* stejně jako body, aby se přizpůsobilo */
 }
 
 @media (max-width: 600px) {
