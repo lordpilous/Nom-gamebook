@@ -8,16 +8,25 @@ body {
     box-sizing: border-box;
     word-wrap: break-word;
     padding: 10px;
-    font-size: calc(16px + 0.5vw); /* Přizpůsobí velikost podle šířky obrazovky */
+    font-size: 18px;
     line-height: 1.6;
 }
 
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-size: calc(16px + 0.5vw);
+    font-size: 18px;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 22px; /* speciálně pro mobilní obrazovky */
+    }
+
+    pre {
+        font-size: 22px;
+    }
+}
 a {
     color: #0066cc;
     text-decoration: none;
