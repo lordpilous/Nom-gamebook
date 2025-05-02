@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
     word-wrap: break-word;
     padding: 10px;
-    font-size: 7vw; /* zvětšeno z 6vw na 7vw */
+    font-size: 15vw; /* zvětšeno z 6vw na 7vw */
     line-height: 1.6;
 }
 
